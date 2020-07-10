@@ -1,0 +1,135 @@
+
+.logo {
+    display: block;
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 23%
+}
+
+
+.right{
+   float: right;
+   
+   
+}
+.left{
+   float: left;
+  
+  
+}
+li{
+display:inline-block;
+}
+#icon{
+margin-left:1.5rem;
+margin-right:1.5rem;
+width: 40%;
+height:1.1rem;
+
+
+
+}
+#fixfooter{
+display:inline;
+position: fixed;
+width:100%;
+display: flex;
+justify-content:space-between;
+bottom: 0;
+background: #f2f2f2;
+border: solid 1px #e4e4e4;
+box-sizing: border-box;
+padding: 13px 25px;
+
+}
+#text-field{
+width:40%;
+display:block;
+padding: 1%;
+margin:auto;
+border-radius:100px;
+border:1px solid #dfe1e5;
+position:absolute;
+left:30%;
+top:40%;
+
+
+}
+#button2{
+
+ position:absolute;
+    left:55%;
+    top:55%;
+    color: #5f6368;
+    background-color: #EFEFEF;
+    border: 0.1rem solid #EFEFEF;
+    border-radius: 0.1rem;
+    padding: 0.5rem 1rem;
+    padding-right:30px;
+    padding-left:20px;
+    font-size: 13px;
+    text-align: center;
+    transform: translate(-40%, 20%);
+    margin:auto;
+
+}
+
+
+
+#button1{
+
+  position:absolute;
+    left:30%;
+    top:55%;
+    color: #5f6368;
+    background-color: #EFEFEF;
+    border: 0.1rem solid #EFEFEF;
+    border-radius: 0.1rem;
+    padding: 0.5rem 1rem;
+    padding-right:30px;
+    padding-left:20px;
+    font-size: 13px;
+    text-align: center;
+    transform: translate(90%, 20%);
+    margin:auto;
+}
+
+ button:hover{
+ background-color: darkgray;
+ font-weight: bold;
+
+ }
+
+
+
+#sign-in{
+font-weight:bold;
+color:#fff ;
+background-color:#0e60ea;
+border:1px solid #42a1f4;
+
+}
+#container {
+  text-align: center;
+  display:inline-block;
+  
+  
+}
+
+a{
+
+  font-family: arial,sans-serif;
+  text-decoration:none;
+  font-size:17px;
+  color:black;
+  margin: 0;
+  padding:2px 5px;
+  text-align:center;
+  opacity:0.75;
+  box-sizing: border-box;
+}
+a:hover{
+text-decoration:underline;
+}
